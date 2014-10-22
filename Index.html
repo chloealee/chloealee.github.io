@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+ <link href='http://fonts.googleapis.com/css?family=Laila' rel='stylesheet' type='text/css'>
+  <script src="/assets/jquery.js"></script>
+  <style>
+    .jumbotron {
+      background: url("Chloe.gif");
+      background-size: cover;
+      height: 500px;
+      font-family: 'Laila', serif;
+      padding: 80px 45px 45px 100px;
+    }
+    .name {
+      font-weight: bolder;
+      font-size: 65px;
+    }
+    #nav {
+      display: inline;
+      padding: 20px 40px 0px 40px;
+      text-align: left;
+      font-family: 'Laila', serif;
+      float: right;
+      list-style: none;
+    }
+    .AboutMe {
+      font-family: 'Laila', serif;
+      text-align: left;
+      height: 300px;
+      font-weight: bolder;
+      padding: 200px 600px 200px 20px;
+      background: url("dslogo.gif");
+      background-position: right;
+      background-repeat: no-repeat;
+      background-position: 750px;
+    }
+    .about {
+      text-align: left;
+      font-weight: bolder;
+    }
+    .Expertise {
+      font-family: 'Laila', serif;
+      background-color: #Fed100;
+      padding: 200px 600px 200px 0px;
+      display: list-item;
+      background-color: #Fed100;
+      background: url("http://neue.dosomething.org/resources/ds-logo-highres.png");
+      background-position: right;
+      background-repeat: no-repeat;
+      background-position: 750px;
+      background-size: 400px;
+      display: list-item;
+      background-color: #Fed100;
+    }
+    .Education {
+      font-family: 'Laila', serif;
+      text-align: left;
+      height: 300px;
+      font-weight: bolder;
+      padding: 200px 600px 200px 20px;
+      background: url("http://img2.findthebest.com/sites/default/files/10/media/images/Occidental_College_173926.png");
+      background-position: right;
+      background-repeat: no-repeat;
+      background-position: 750px;
+      display: list-item;
+    }
+    .Contact {
+      font-family: 'Laila', serif; 
+      background-color: #Fed100;
+      padding: 10px 0px 20px 0px;
+    }
+  </style>
+<title>Chloe Lee</title>
+</head>
+<body>
+  <header>
+      <div class="nav">
+        <ul>
+          <li id="nav"><a href="#CONTACT">CONTACT</a></li>
+          <li id="nav"><a href="#EDUCATION">EDUCATION</a></li>
+          <li id="nav"><a href="#EXPERTISE">EXPERTISE</a></li>
+          <li id="nav"><a href="#ABOUTME">ABOUT ME</a></li>
+        </ul>
+      </div>
+      <div class="jumbotron">
+      <h1 <span class="name">Hi, I'm Chloe!</h1>
+      <h2>Marketing Manager at DoSomething.org</h2>
+    </div>
+    <a name="ABOUTME"></a>
+    <div class="AboutMe">
+      <h2 span class="about">ABOUT ME</h2>
+      <p>I work in New York City as a Marketing Manager for DoSomething.org, the largest organization for young people and social change. In my position, I focus on buliding integrated and strategic partnerships to reach more young people and ultimately make more social impact. Outside of work, I love to cook and learn new things. Time with friends and family mean the world to me.</p>
+    </div>
+    <a name="EXPERTISE"></a>
+    <div class="Expertise">
+      <h2>EXPERTISE</h2>
+        <p><strong>Strategic Partnerships</strong></p>
+        <ul>
+            <li>Research, pitch, and manage strategic partnerships to drive member acquisition and media impressions</li>
+            <li>Led national partnership with top YouTube channel, Smosh, garnering 33% of new member acquisition for entire campaign in less than one week</li>
+            <li>Triped value of donated media for organization since starting in 2011</li>
+        </ul>
+        <p><strong>Project Management</strong></p>
+        <ul>
+          <li>Work with various teams to execute strategic partnerships, including campaigns, technology, design, content, finance, mobile, and business development teams</li>
+        </ul>
+    </div>
+    <a name="EDUCATION"></a>
+    <div class="Education">
+      <h2>EDUCATION</h2>
+        <ul>
+          <li>Occidental College</li>
+          <li>Major: Urban & Environmental Policy</li>
+          <li>Minor: Sociology</li>
+          <li>Graduated Cum Laude</li>
+        </ul>
+    </div>
+    <div>
+    <a name="CONTACT"></a>
+    <div class="Contact">
+      <h2>CONTACT</h2>
+        <input type="text" skinpart="name" name="name" class="required" placeholder="Name" style="width:200px;"><br>
+        <input type="text" skinpart="email" name="email" class="required" placeholder="Email" style="width:200px;"><br>
+        <input type="text" skinpart="subject" name="subject" class="required" placeholder="Subject" style="width:200px;"><br>
+        <input type="text" skinpart="message" name="message" class="required" placeholder="Message" style="width:200px; height:70px;">
+        <form action="">
+			<input type="button" value="Submit">
+		</form>
+  </div>
+  </header>
+</body>
