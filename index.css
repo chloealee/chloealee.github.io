@@ -1,0 +1,80 @@
+.jumbotron {
+      background: url("Chloe.jpg");
+      background-size: cover;
+      height: 600px;
+      font-family: 'Laila', serif;
+      padding: 80px 45px 45px 80px;
+    }
+.name {
+      font-weight: bolder;
+      font-size: 65px;
+    }
+#nav {
+      display: inline;
+      padding: 20px 40px 20px 40px;
+      text-align: left;
+      font-family: 'Laila', serif;
+      float: right;
+    }
+h1 {
+	font-family: 'Droid', serif;
+	font-size: 100px; 
+}
+h2 {
+	font-family: 'Droid Serif', serif;
+	font-size: 18px;
+}
+#columns {
+	float: left;
+	width: 100%;
+}
+.past {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+	background-color: white;
+	color: black;
+}
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #97CCCD;
+	background-color: white;
+}
+.present {
+	display: inline-block;
+	float: left;
+	width: 40%;
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+	background-color: white;
+	color: black;
+}
+.future {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+	background-color: white;
+	color: black;
+}
+@media (max-width: 500px) {
+	#columns {
+		float: left;
+		display: block;
+	}
+}
+.bottom {
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	background-color: #1E1E1E;
+	color: white;
+	padding: 50px 0px 50px 0px;
+}
+
