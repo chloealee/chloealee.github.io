@@ -9,6 +9,7 @@
       font-weight: bolder;
       font-size: 65px;
       color: #F2DC87;
+      text-shadow: 1px 1px 1px #999;
     }
 h1 {
 	font-family: 'Droid', serif;
@@ -17,6 +18,7 @@ h1 {
 h2 {
 	font-family: 'Droid Serif', serif;
 	font-size: 18px;
+	color: #444;
 }
 .column {
 	display: inline-block;
