@@ -1,7 +1,7 @@
 .jumbotron {
   background: url("Chloe.jpg");
+  height: 100vh;
   background-size: cover;
-  height: 550px;
   font-family: 'Laila', serif;
   padding: 80px 45px 25px 80px;
 }
@@ -51,7 +51,7 @@ p {
 .column img {
 	max-width: 150px; 
 }
-
+  
 h3 {
 	font-size: 18px;
 	font-weight: bold;
